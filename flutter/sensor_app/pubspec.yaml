@@ -1,0 +1,29 @@
+name: sensor_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  dart_code_linter: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.35.5
+  permission_handler: ^11.3.1
+  sensors_plus: ^4.0.0
+  geolocator: ^11.0.0
+  flutter_compass: ^0.8.0
+  light_sensor: ^3.0.1
+  proximity_sensor: ^1.0.3
+  noise_meter: ^5.0.2
+  camera: ^0.10.5+9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
